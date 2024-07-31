@@ -182,5 +182,5 @@ def Load(data):
 * Recommend movies based on popular films that are similar to what the user is currently watching. For example, if a specific user is watching movie A and most people who watched movie A also tend to watch movie B, we would recommend movie B to that user.
 
 ### Areas for Improvement
-* The database needs to be normalized to 2NF (and higher if necessary) due to multivalued attributes.
+* Data normalization is essential for depositing data into the data warehouse.
 * A more comprehensive and detailed mapping table is needed to label each keyword that users search for.
